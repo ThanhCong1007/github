@@ -121,10 +121,7 @@ int tinhBacVH(DANHSACHKE dsk, int dinh) {
 	return dem;
 }
 DANHSACHCANH tapCanhVH(DANHSACHKE dsk) {
-	DANHSACHCANH dsc; 
-	/*for (int i = 0; i < dsk.n; i++) {
-		dsc.ds[i] = NULL;
-	}*/
+	DANHSACHCANH dsc;
 	bool flag = false;
 	for (int i = 0; i < dsk.n; i++) {
 		NODE* p = dsk.dsk[i];
